@@ -8,7 +8,7 @@ export default function MaskFloatingLabel({ className, ...props }) {
   return (
     <FloatingLabel
       className={`mask-floating-label ${className}`}
-      as={InputMask}
+      tag={InputMask}
       {...props}
     />
   );
